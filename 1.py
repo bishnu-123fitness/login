@@ -9,9 +9,9 @@ root=Tk()
 root.title("login")
 root.resizable(0,0)
 root.geometry("900x600")
-root.iconbitmap("g.ico")
-img=ImageTk.PhotoImage(Image.open("a.png"))
-Label(root,image=img).place(x=5,y=50)
+# root.iconbitmap("g.ico")
+# img=ImageTk.PhotoImage(Image.open("a.png"))
+# Label(root,image=img).place(x=5,y=50)
 
 def signin():
     entered_username=username.get()
